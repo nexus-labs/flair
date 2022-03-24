@@ -139,15 +139,6 @@ from .entity_linking import (
     WSD_UFSAC,
     WSD_WORDNET_GLOSS_TAGGED,
 )
-
-# Expose all relation extraction datasets
-from .relation_extraction import (
-    RE_ENGLISH_CONLL04,
-    RE_ENGLISH_DRUGPROT,
-    RE_ENGLISH_SEMEVAL2010,
-    RE_ENGLISH_TACRED,
-)
-
 # universal proposition banks
 # keyphrase detection datasets
 # other NER datasets
